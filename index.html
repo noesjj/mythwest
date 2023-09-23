@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body, html {
   height: 100%;
@@ -20,13 +21,18 @@ body, html {
 .topleft {
   position: absolute;
   top: 0;
-  left: 16px;
+  width: 100%;
+  max-width: 200px;
+  margin: 20px
 }
 
 .bottomleft {
   position: absolute;
   bottom: 0;
   left: 16px;
+  margin-bottom: 25px;
+  margin-left: 50%;
+  margin-right: 50%;
 }
 
 .middle {
@@ -37,24 +43,54 @@ body, html {
   text-align: center;
 }
 
+.img {
+  width:100%;
+  max-width:200px;
+}
+
 hr {
   margin: auto;
   width: 40%;
 }
+
+.fa-instagram {
+  color: white;
+  width: 100%;
+  max-width: 400px;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
 </style>
 <body>
 
 <div class="bgimg">
   <div class="topleft">
-    <p>Logo</p>
+    <img src="https://github.com/noesjj/mythwest/blob/main/logo.png?raw=true" class="topleft" alt="alternatetext">
   </div>
   <div class="middle">
-    <h1>COMING SOON</h1>
+    <h1>It Ain't Over Yet</h1>
     <hr>
-    <p>35 days left</p>
+    <p>Casual Outdoor Outerwear & Equipment</p>
   </div>
   <div class="bottomleft">
-    <p>Some text</p>
+    <a href="https://www.instagram.com/_mythwest_/" class="fa fa-instagram"></a>
+    <a href="https://www.facebook.com/mythwesterners/" class="fa fa-facebook"></a>
   </div>
 </div>
 
